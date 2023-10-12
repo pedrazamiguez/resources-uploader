@@ -7,10 +7,10 @@ and Windows (.msi) to upload resources to AWS S3 buckets and Firebase Storage.
 
 | Language or tool      | Version |
 |-----------------------|---------|
-| Kotlin                | 1.8.20  |
+| Kotlin                | 1.9.10  |
 | Java                  | 17.0.9  |
-| Compose Multiplatform | 1.4.1   |
-| Gradle                | 7.5.1   |
+| Compose Multiplatform | 1.5.3   |
+| Gradle                | 8.4     |
 
 # How to execute
 
