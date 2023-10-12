@@ -1,6 +1,6 @@
 # Introduction
 
-**Resources Uploader** is a desktop app implemented using Kotlin Compose Multiplatform for Linux (.deb), MacOS (.dgm)
+**Resources Uploader** is a desktop app implemented using Kotlin Compose Multiplatform for Linux (.deb), MacOS (.dmg)
 and Windows (.msi) to upload resources to AWS S3 buckets and Firebase Storage.
 
 # Versions
