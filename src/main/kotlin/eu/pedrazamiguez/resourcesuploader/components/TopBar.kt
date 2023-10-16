@@ -14,6 +14,7 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
+
 @Composable
 fun topBar() {
     var connected by remember { mutableStateOf(false) }
@@ -32,7 +33,14 @@ fun topBar() {
                 }
             ).padding(16.dp)
         ) {
-            Text("<Info about connection>")
+            Row {
+                infoItem("Provider", "AWS", "images/aws.svg")
+                infoItem("Service", "S3", "images/s3.svg")
+                infoItem("Bucket", "images", "images/bucket.svg")
+                infoItem("User", "pedrazamiguez", "images/user.svg")
+                infoItem("Connection time", "1:34", "images/clock.svg")
+
+            }
             Button(
                 onClick = {
 
@@ -61,7 +69,7 @@ fun topBar() {
                     }
                 )
             }
-            
+
         }
 
         if (loading) {
